@@ -1,7 +1,7 @@
-import UseState5 from "./hook/UseState5";
+import UseEffect from "./hook/UseEffect";
 function App() {
   return (
-      <UseState5/> 
+      <UseEffect/> 
   );
 }
 export default App;
