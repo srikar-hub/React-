@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 
 
 
-const URL= "https://jsonplaceholder.typicode.com/user";
+const URL= "https://jsonplaceholder.typicode.com/users";
 export default function UseEffect() {
    
     const [userData,setUserData] = useState([]);
@@ -48,7 +48,7 @@ export default function UseEffect() {
     </div>
  }
 if(error.status){
-    return <div style={{color:'red'}}>{error.msg}</div>
+    return <div style={{color:'red',textAlign:'center'}}>{error.msg}</div>
 }
   return (
     <div>

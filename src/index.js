@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { UserContextProvider } from './hook/useContext/UseContextExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+
+  <UserContextProvider>
     <App />
-  </React.StrictMode>
+  </UserContextProvider>
   
 );
